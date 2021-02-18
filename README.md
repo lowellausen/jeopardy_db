@@ -8,3 +8,15 @@ also a Patricia tree for the text information (question).
 With those binary files in hand we can efficiently (luckly) perform searches in that data, as i using a database/dbms.
 
 ### screenshots
+
+Menu where you can load a the json file and perform your queries (when you load the file all the index files will be created, so it might take a while since the databse is huge):
+
+![Alt text](screenshots/menu.png?raw=true "Menu")
+
+Result screen, filtering for #1 show:
+
+![Alt text](screenshots/list.png?raw=true "Result List")
+
+You click click on Answer to see that answer to that question (or rather the question to that answer). Here we're doing a word seach for "Finland":
+
+![Alt text](screenshots/finland.png?raw=true "Finland")
